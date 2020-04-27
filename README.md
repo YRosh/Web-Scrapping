@@ -1,5 +1,4 @@
 # Web-Scrapping
----  
 The outcome of this repository is to scrape data about various Indian movie celebrities. The information I have extracted for each actor include - _Name_, _Image_, _Age_, _Height_, _Description_  
 
 #### Modules used  
@@ -10,7 +9,7 @@ The outcome of this repository is to scrape data about various Indian movie cele
 
 #### Websites used  
 ---  
-* I have first used [this]("https://en.wikipedia.org/wiki/List_of_Indian_film_actors") and [this]("https://en.wikipedia.org/wiki/List_of_Indian_film_actresses") **Wikipedia** pages, which give the complete list of actors(first link) and actresses(second link).  
+* I have first used [this](https://en.wikipedia.org/wiki/List_of_Indian_film_actors) and [this](https://en.wikipedia.org/wiki/List_of_Indian_film_actresses) **Wikipedia** pages, which give the complete list of actors(first link) and actresses(second link).  
 
 * These pages provide links to the specific pages of the respective actor/actress. Which are stored and then each one is visited to extract the information.  
 
