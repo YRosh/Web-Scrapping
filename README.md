@@ -17,7 +17,7 @@ The outcome of this repository is to scrape data about various Indian movie cele
 
 * Since age in Wikipedia is present in different places in different formats, and due to the unavailability of height of most of the actors. I have used separate Google searches to get these information.
 
-* Gender is got Wikipedia, and is_alive from Google search.
+* Gender is got from Wikipedia, and is_alive from Google search.
 
 #### Final output  
 ---  
