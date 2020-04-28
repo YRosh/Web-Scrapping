@@ -1,5 +1,5 @@
 # Web-Scrapping
-The outcome of this repository is to scrape data about various Indian movie celebrities. The information I have extracted for each actor include - _Name_, _Image_, _Age_, _Height_, _Description_  
+The outcome of this repository is to scrape data about various Indian movie celebrities. The information I have extracted for each actor include - _Name_, _Image_, _Gender_, _Age_, _Height_, _Is_Alive_, _Description_  
 
 #### Modules used  
 ---  
@@ -16,6 +16,8 @@ The outcome of this repository is to scrape data about various Indian movie cele
 * From each page I have taken the person's name, his description, _i.e._ the first paragraph in the page, and check for the availability of his image. If present it is downloaded, else a **Google** search is made with his name as query and an image is downloaded from the results.  
 
 * Since age in Wikipedia is present in different places in different formats, and due to the unavailability of height of most of the actors. I have used separate Google searches to get these information.
+
+* Gender is got Wikipedia, and is_alive from Google search.
 
 #### Final output  
 ---  
